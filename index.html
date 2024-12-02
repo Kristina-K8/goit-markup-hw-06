@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Web Studio</title>
 
     <link
@@ -52,11 +53,17 @@
             </li>
           </ul>
         </address>
+
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
     <main>
-      <section class="section-one">
+      <section class="section-one hidden">
         <div class="container">
           <h1 class="section-one-text">
             Effective Solutions for Your Business
@@ -67,7 +74,7 @@
         </div>
       </section>
 
-      <section class="section-benefits">
+      <section class="section-benefits hidden">
         <div class="container">
           <h2 class="visually-hidden">Заголовок</h2>
           <ul class="benefits-list">
@@ -126,7 +133,7 @@
         </div>
       </section>
 
-      <section class="team">
+      <section class="team hidden">
         <div class="container">
           <h2 class="our-team">Our Team</h2>
 
@@ -312,7 +319,7 @@
         </div>
       </section>
 
-      <section class="portfolio">
+      <section class="portfolio hidden">
         <div class="container">
           <h2 class="our-portfolio">Our Portfolio</h2>
           <ul class="portfolio-ul">
@@ -434,7 +441,7 @@
       </section>
     </main>
 
-    <footer class="page-footer">
+    <footer class="page-footer hidden">
       <div class="container footer">
         <div class="footer-one-div">
           <a class="logo footer-logo" href="./index.html"
@@ -502,7 +509,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop is-open hidden">
       <div class="modal">
         <button class="modal-btn" type="button">
           <svg class="close-modal" width="8" height="8">
